@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+title: "matrepair — Materiality-Bounded Repair Safety"
+message: "If you use this software or benchmark, please cite the accompanying paper."
+type: software
+authors:
+  - given-names: Prateek
+    family-names: Bhatnagar
+    orcid: "https://orcid.org/0009-0000-0359-3268"
+    affiliation: "Independent Researcher"
+license: MIT
+repository-code: "https://github.com/Prateek2690/matrepair"
+abstract: >-
+  A reusable benchmark and reference implementation for materiality-bounded,
+  reconciliation-preserving repair safety in the automated correction of
+  regulated financial figures. Provides a synthetic regulatory-aggregate
+  generator, fault injection with ground truth known by construction, a
+  deterministic verification gate with a completeness guarantee, and three
+  scoring axes not measured by existing repair benchmarks.
+keywords:
+  - regulatory reporting
+  - materiality
+  - model risk management
+  - expected credit loss
+  - automated data repair
+  - data quality
+  - safety guarantee
+  - human-in-the-loop escalation
+  - LLM agents
+  - trustworthy AI in finance
+preferred-citation:
+  type: article
+  title: >-
+    A Safety Gate for AI-Driven Data Repair in Regulated Financial Reporting:
+    Escalating Only the Fixes That Could Materially Misstate a Reported Figure
+  authors:
+    - given-names: Prateek
+      family-names: Bhatnagar
+      orcid: "https://orcid.org/0009-0000-0359-3268"
+      affiliation: "Independent Researcher"
+  year: 2026
+  month: 9
+  # SSRN abstract ID 7432699. CONFIRM this DOI against the live SSRN page
+  # before relying on it — it follows SSRN's standard pattern but was not
+  # independently verified.
+  doi: "10.2139/ssrn.7432699"
+  url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7432699"
+  notes: "SSRN working paper. Preprint; not peer reviewed."
