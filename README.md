@@ -1,5 +1,7 @@
 # matrepair — Materiality-Bounded Repair Safety
 
+[![DOI](https://zenodo.org/badge/1418606691.svg)](https://doi.org/10.5281/zenodo.23362560)
+
 A reusable benchmark and reference implementation for **materiality-bounded, reconciliation-preserving
 repair safety** in the automated correction of regulated financial figures.
 
@@ -86,6 +88,10 @@ follow-up work.
 The gate guarantees that a repair is *safe to auto-apply*, not that it is *correct*. A wrong but
 immaterial repair is applied by design, since it cannot materially misstate the report. Value
 correctness remains the proposer's responsibility.
+
+## Citing the code
+
+Software archive on Zenodo: DOI [10.5281/zenodo.23362560](https://doi.org/10.5281/zenodo.23362560). Please also cite the paper above.
 
 ## Author
 

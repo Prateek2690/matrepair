@@ -8,6 +8,8 @@ authors:
     orcid: "https://orcid.org/0009-0000-0359-3268"
     affiliation: "Independent Researcher"
 license: MIT
+version: "1.0.0"
+doi: "10.5281/zenodo.23362560"
 repository-code: "https://github.com/Prateek2690/matrepair"
 abstract: >-
   A reusable benchmark and reference implementation for materiality-bounded,
